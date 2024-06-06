@@ -1,0 +1,35 @@
+-lage en gui til labyrinten
+-bruke designmønsterert MVC
+    - Model
+    - View
+    - Controller 
+
+Bruke opprinnelige kode som modell (data og logikk). Bytte ut kommando-grensesnittet med terminalutskrift til et grafisk 
+brukergrensesnitt:)
+
+
+i klasse GUI: 
+- det som trengs avhenger av hva som er i kommandobrukergrensesnittet: 
+    - "Skriv inn koordinater" + trenger å skrive inn tekst(int)
+    - 
+
+
+en rute kan trykkes på dersom den 
+
+
+
+
+
+     //lag label: "Slik ser labyrinten ut: "
+        //istedet for å skrive koordinater, kan bruker trykke på koordinat i rutenettet
+        //lag en gridlayout
+
+
+
+**husk å initialiser alle objekter først!
+
+- actionlisteneren til knappen (ruten) skal velge koordinatet og sende det til modellen. 
+- print koordinatet til terminalen, lag en label som skriver ut valgt koordinat. 
+
+- hent labyrinten fra modellen, og print den ut på guien!
+dvs. velg fil med labyrint, parse og send til gui
